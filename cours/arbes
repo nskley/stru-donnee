@@ -1,0 +1,32 @@
+ARBRES:
+
+arite: nbre maximal de fils que peut avoir un noeud dans cet arbre
+braanche: chemin qui va de la racine à une feuille
+ascendants: ensemble des noeuds constituants le chemin qui va de la racine au noeud considèré 
+
+arbre parfait: arbre n-aire de hauteurt n dans lequel tout noeud de profondeur
+(n-1) possede exactement n fils et dont toutes les feuilles sont regroupes à gauche de l'arbre
+
+arbre equilibré: arbre n-aire don tous les sous-graphes contiennent le même nombre de noeuds à un
+noeud-près et sont tous eux même equilibrés
+
+arbre binaire: chaque noeud à au maximum 2 fils
+3parties
+->racine
+->sous arbre gauche
+->sous arbre droit
+
+
+arbres binaires de recherche:
+type spécifique des arbres binaires tel que pour tout noeud N n'étant pas une feuille
+->tout noeud appartenant au sous-arbre (s'il existe) de gauche possède une étiquette dont la valeur
+est inférieur à N.
+
+
+le TAD reprend celui des arbre binaires complete par de nouvelles opérations et axiomes
+
+opérations:
+cherche->recherche un  valeur dans l'arbre
+minimum/maximum->recherche les valeurs min/max
+insere/suprimer->
++12  axiomes
